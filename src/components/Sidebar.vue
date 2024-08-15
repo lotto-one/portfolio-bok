@@ -9,7 +9,8 @@
 .about {
   text-align: center;
   width: 350px;
-  height: 1000px;
+  height: 2000px;
+
   background-color: rgba(112, 111, 111, 0.164);
   margin-left: -7px;
   margin-top: -8px;

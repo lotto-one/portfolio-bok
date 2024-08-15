@@ -1,18 +1,24 @@
 <template>
   <div class="container">
-    <h1>안녕하세요</h1>
-    <h1>하</h1>
+    <div class="header">
+      <h1>About</h1>
+    </div>
+    <h3 class="centered">안녕하세요 신입 개발자 복권일 입니다.</h3>
   </div>
 </template>
 
 <style>
 .container {
-  width: 1280px;
-  text-align: center;
+  width: 1100px;
   display: flex;
   flex-direction: column;
-  justify-items: center;
   align-items: center;
-  align-content: center;
+}
+
+.header {
+  width: 100%; /* 전체 폭을 차지하도록 설정 */
+  display: flex;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  margin-left: 100px;
 }
 </style>
